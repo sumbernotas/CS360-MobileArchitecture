@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AddDatabaseEvent">
+
+    <TextView
+        android:id="@+id/textViewAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="72dp"
+        android:text="Event Tracking"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textViewEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="233dp"
+        android:text="Event Name"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="225dp"
+        android:ems="12"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewEventNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="334dp"
+        android:text="Event Notes"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextEventNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="293dp"
+        android:ems="12"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonEventUpdate"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="599dp"
+        android:backgroundTint="#F08A5D"
+        android:text="Update"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonDeleteEvent"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="229dp"
+        android:layout_marginTop="598dp"
+        android:backgroundTint="#F08A5D"
+        android:text="DELETE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonChangeTime"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="423dp"
+        android:backgroundTint="#F08A5D"
+        android:text="Change Time"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonChangeDate"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="424dp"
+        android:backgroundTint="#F08A5D"
+        android:text="Change Date"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonUpdateEventExitScreen"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="154dp"
+        android:backgroundTint="#F08A5D"
+        android:text="X"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
